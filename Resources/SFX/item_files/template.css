@@ -1,0 +1,602 @@
+/* This CSS file contains all the placement/color settings */
+
+/* that will be used by browsers that are not IE. */
+
+
+
+/* I'd like to give a shout-out and a "fuck you" to Internet Explorer.  Congratulations on sucking, IE. */
+
+
+
+body {
+
+	padding: 0px;
+
+	font-family: Tahoma; 
+
+	font-size: 11px;
+
+	margin-left: 0px;
+
+	margin-top: 0px;
+
+	margin-right: 0px;
+
+	margin-bottom: 0px;
+
+	background: #d1dde3 url(../images/bg2.gif) repeat left;
+
+	color: #21363f;
+
+}
+
+
+
+a {
+
+	color: #000;
+
+	font-weight: bold;
+
+	text-decoration: none;
+
+}
+
+
+
+a:hover {
+
+	color: #4d707f;
+
+}
+
+
+
+.buffer {
+
+	margin: 0em 1em;
+
+}
+
+
+
+img {
+
+	border: 0px;
+
+}
+
+
+
+ul {
+
+	margin: 0px auto;
+
+}
+
+
+
+#faux {
+
+	background: #d1dde3 url(../images/bg.gif) repeat-y center;
+
+	margin-left: auto;
+
+	margin-right: auto;
+
+}
+
+
+
+/* Main divs */
+
+
+
+#page {
+
+	margin-right: auto;
+
+	margin-left: auto;
+
+	width: 900px;
+
+}
+
+
+
+#alpha {
+
+	width: 720px;
+
+	float: left;
+
+}
+
+
+
+#beta {
+
+	width: 161px !important;
+
+	float: right;
+
+	width: 105px;
+
+}
+
+
+
+#delta {
+
+	clear: both;
+
+	margin-left: auto;
+
+	margin-right: auto;
+
+	width: 100%;
+
+	height: 40px;
+
+	background: #d1dde3 url(../images/bottom.gif) repeat-x left;
+
+	margin-bottom: -3px;
+
+}
+
+
+
+#omega {
+
+	width: 100%;
+
+	margin-left: auto;
+
+	margin-right: auto;
+
+	background: #d1dde3 url(../images/top.gif) no-repeat center;
+
+	height: 34px;
+
+	text-align: center;
+
+	margin-top: -3px;
+
+	font-size: 1.2em;
+
+}
+
+
+
+#lmenu {
+
+	width: 162px;
+
+	float: left;
+
+	margin-left: 0px !important;
+
+}
+
+
+
+#main {
+
+	float: right;
+
+	width: 550px !important;
+
+	width: 540px;
+
+}
+
+
+
+#rmenu {
+
+	width: 100% !important;
+
+	float: right;
+
+	padding-left: 4em;
+
+	width: 95%;
+
+}
+
+
+
+/* main content area */
+
+
+
+#path {
+
+	padding: 1em 2em;
+
+	width: 100%;
+
+	background: url(../images/pathway.gif) no-repeat left;
+
+}
+
+
+
+#cont {
+
+	width: 100%;
+
+	text-align: justify;
+
+	padding-bottom: 1em;
+
+	padding-right: 1ex;
+
+	padding-left: -1em;
+
+}
+
+
+
+#cont img {
+
+	margin: .7ex;
+
+}
+
+
+
+/* topbar stuff */
+
+
+
+#khiban {
+
+	float: left;
+
+	width: 720px;
+
+	border: 1px solid #4d707f;
+
+}
+
+
+
+#rtop {
+
+	width: 161px;
+
+	float: left;
+
+	margin-left: -1px;
+
+}
+
+
+
+/* Joomla classes & such.  */
+
+
+
+
+
+/* sidemenu settings */
+
+.moduletable,
+
+.moduletable-poll {
+
+
+
+	margin-left: 1px;
+
+	padding-left: 1ex;
+
+	margin-right: 1px;
+
+	padding-right: 1ex;
+
+	font-size: 10px;	
+
+	font-family: arial;
+
+}
+
+
+
+.moduletable h3,
+
+.moduletable-poll h3 {
+
+	background: url(../images/modulehead.gif) no-repeat left;
+
+	padding-left: 2px;
+
+	padding-top: 1ex;
+
+	padding-bottom: 1ex;
+
+	margin-top: .9ex;
+
+	font-size: 1.2em;
+
+	font-variant: small-caps;
+
+}
+
+
+
+.moduletable table {
+
+	margin-top: -1.5ex;
+
+	margin-bottom: 1ex;
+
+}
+
+
+
+.moduletable td {
+
+	padding-left: 14px;
+
+	padding-bottom: 1px;
+
+	background: url(../images/key.gif) no-repeat left;
+
+	margin-top: 1px;
+
+}
+
+
+
+/* left menu settings */
+
+#alpha .moduletable h3 {
+
+	margin-left: -5px;
+
+}
+
+
+
+/* right menu settings */
+
+
+
+#beta .moduletable,
+
+#beta .moduletable-poll {
+
+	margin-left: -10px;
+
+}
+
+
+
+#beta .moduletable h3,
+
+.moduletable-poll h3 {
+
+	margin-left: -1px;
+
+}
+
+
+
+#rmenu .moduletable h3,
+
+.moduletable-poll h3 {
+
+	background: url(../images/moduleheadr.gif) no-repeat left;
+
+	text-align: center;
+
+	padding-right: 2em;
+
+	width: 100%;
+
+	margin-left: 4px;
+
+}
+
+
+
+#rtop table {
+
+	width: 100%;
+
+	float: right;
+
+}
+
+
+
+#rtop td {
+
+	background: url(../images/topbutton.gif) no-repeat left;
+
+	height: 29px;
+
+	width: 161px;
+
+	padding: 2px;
+
+	text-align: left;
+
+	margin: 1px;
+
+	margin-right: 5px;
+
+	margin-left: -10px;
+
+	font-family: Trebuchet MS;
+
+	font-variant: small-caps;
+
+	font-size-adjust: .75;
+
+	font-weight: normal;
+
+}
+
+
+
+/* everything else */
+
+.contentheading,
+
+.sectionheader {
+
+	font-weight: bold;
+
+	color: #000;
+
+	font-size-adjust: .5;
+
+}
+
+
+
+#overDiv {
+
+	font-size-adjust: .5;
+
+	font-weight: normal;
+
+}
+
+
+
+span.small {
+
+	font-weight: bold;
+
+}
+
+
+
+td.contentheading {
+
+	background: url(../images/contenthead.gif) no-repeat center;
+
+	width: 660px;
+
+	height: 31px;
+
+	padding-top: 6px;
+
+	padding-left: 3px;
+
+	margin-left: auto;
+
+	margin-right: auto;
+
+}
+
+
+
+#cont p {
+
+	padding-left: 1em;
+
+	padding-right: 1em;
+
+}
+
+
+
+.contenttoc {
+
+	float: right;
+
+	border: 1px #000 solid;
+
+	background-color: #d7dee5;
+
+}
+
+
+
+.contenttoc th {
+
+	background-color: #c4d1de;
+
+	color: #3c5a87;
+
+	padding: 0px 1ex;
+
+	border-bottom: 1px #000 solid;
+
+}
+
+
+
+.contenttoc td {
+
+	padding: 0px 1ex;
+
+}
+
+
+
+#emailForm {
+
+	margin-left: 5em;
+
+}
+
+
+
+.componentheading {
+
+	color: #ebebeb;
+
+	text-align: center;
+
+}
+
+
+
+/* custom doodads for putting in content pages */
+
+/* (That means the extra details that you can safely ID things as in content */
+
+.created {
+
+	width: 95%;
+
+	margin-left: auto;
+
+	margin-right: auto;
+
+}
+
+
+
+.center {
+
+	margin-left: auto;
+
+	margin-right: auto;
+
+}
+
+
+
+.standout {
+
+	color: #5f6e7c;
+
+}
+
+
+
+.google {
+
+	width: 100%;
+
+	height: 50px;
+
+}
+
